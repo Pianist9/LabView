@@ -1,0 +1,10 @@
+--cpu Cortex-M1
+".\objects\hex\main.o"
+".\objects\hex\interrapt.o"
+".\objects\hex\initmcontroller.o"
+".\objects\hex\startup_mdr1986ve1t.o"
+".\objects\hex\system_mdr1986ve1t.o"
+--nodebug --strict --scatter ".\Objects\hex\My game.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\My game.map" -o ".\Objects\hex\My game.axf"

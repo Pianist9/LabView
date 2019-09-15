@@ -1,0 +1,10 @@
+--cpu Cortex-M1
+".\objects\main.o"
+".\objects\interrapt.o"
+".\objects\initmcontroller.o"
+".\objects\startup_mdr1986ve1t.o"
+".\objects\system_mdr1986ve1t.o"
+--strict --scatter ".\Objects\My game.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\My game.map" -o ".\Objects\My game.axf"

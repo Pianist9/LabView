@@ -1,0 +1,47 @@
+Dependencies for Project 'My game', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x5D6CB535)(--c99 -c --cpu Cortex-M1 -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\inc -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\src -I ..\..\Libraries\Config -I ..\..\Libraries\CMSIS\CM1\CoreSupport-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DUSE_MDR1986VE1T-o .\objects\hex\main.o --omf_browse .\objects\hex\main.crf --depend .\objects\hex\main.d)
+I (Interrapt.h)(0x5D68F581)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x5D0BDC9A)
+I (..\..\Libraries\Config\MDR32F9Qx_config.h)(0x5D0BDC9A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x5D0BDC9A)
+I (Initmcontroller.h)(0x5D6CBD6F)
+I (adrpr.h)(0x5D5ED1A4)
+F (.\Interrapt.c)(0x5D6CBB2E)(--c99 -c --cpu Cortex-M1 -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\inc -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\src -I ..\..\Libraries\Config -I ..\..\Libraries\CMSIS\CM1\CoreSupport-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DUSE_MDR1986VE1T-o .\objects\hex\interrapt.o --omf_browse .\objects\hex\interrapt.crf --depend .\objects\hex\interrapt.d)
+I (Interrapt.h)(0x5D68F581)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x5D0BDC9A)
+I (..\..\Libraries\Config\MDR32F9Qx_config.h)(0x5D0BDC9A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x5D0BDC9A)
+F (.\Interrapt.h)(0x5D68F581)()
+F (.\Initmcontroller.h)(0x5D6CBD6F)()
+F (.\Initmcontroller.c)(0x5D6CCAED)(--c99 -c --cpu Cortex-M1 -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\inc -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\src -I ..\..\Libraries\Config -I ..\..\Libraries\CMSIS\CM1\CoreSupport-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DUSE_MDR1986VE1T-o .\objects\hex\initmcontroller.o --omf_browse .\objects\hex\initmcontroller.crf --depend .\objects\hex\initmcontroller.d)
+I (Initmcontroller.h)(0x5D6CBD6F)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x5D0BDC9A)
+I (..\..\Libraries\Config\MDR32F9Qx_config.h)(0x5D0BDC9A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x5D0BDC9A)
+F (.\adrpr.h)(0x5D5ED1A4)()
+F (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x5D0BDC9A)()
+F (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\startup_MDR1986VE1T.s)(0x5D0BDC9A)(--cpu Cortex-M1 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "USE_MDR1986VE1T SETA 1"--list .\listings\startup_mdr1986ve1t.lst --xref -o .\objects\hex\startup_mdr1986ve1t.o --depend .\objects\hex\startup_mdr1986ve1t.d)
+F (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.c)(0x5D0BDC9A)(--c99 -c --cpu Cortex-M1 -g -O0 --apcs=interwork --split_sections -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc -I ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\inc -I ..\..\Libraries\MDR1986BE4_StdPeriph_Driver\src -I ..\..\Libraries\Config -I ..\..\Libraries\CMSIS\CM1\CoreSupport-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\Keil\MDR1986BExx\1.51\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DUSE_MDR1986VE1T-o .\objects\hex\system_mdr1986ve1t.o --omf_browse .\objects\hex\system_mdr1986ve1t.crf --depend .\objects\hex\system_mdr1986ve1t.d)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h)(0x5D0BDC9A)
+I (..\..\Libraries\Config\MDR32F9Qx_config.h)(0x5D0BDC9A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F63EF8)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h)(0x5D0BDC9A)
+I (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x5D0BDC9A)
+F (..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h)(0x5D0BDC9A)()
+F (..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h)(0x5D0BDC9A)()
+F (..\..\Libraries\Config\MDR32F9Qx_config.h)(0x5D0BDC9A)()
+F (..\..\Libraries\Config\MDR32F9Qx_board.h)(0x5D0BDC9A)()

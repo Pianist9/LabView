@@ -1,0 +1,89 @@
+
+#include "handler.h"
+
+//int PWM_speed =250;
+int PWM_time =0xFFFF;
+
+int i;
+int c=0;
+		char b = 48;
+/*void Timer2_IRQHandler (void)
+{
+	
+
+	if ((MDR_TIMER2->STATUS&0x02)==0x02)
+	{
+	MDR_TIMER2->STATUS =(0<<2);
+	MDR_PORTC->RXTX =!MDR_PORTC->RXTX;   //Показываем что прерывание обработано
+  if ((MDR_PORTD->RXTX & 0x20)==0) PWM_speed++;
+	if (PWM_speed>500) PWM_speed=1;
+	MDR_TIMER1->ARR = PWM_speed;
+		if ((MDR_PORTB->RXTX & 0x20) >= 3) PWM_time+=255;
+		else        if ((MDR_PORTB->RXTX & 0x20) <= 0) PWM_time-=255;
+		            else PWM_time = PWM_time;
+		if (PWM_time > 0xFFFF) PWM_time=0xFFFF;
+				else if (PWM_time<0x0000) PWM_time=0x0000;				
+	//MDR_TIMER1->ARR = PWM_speed;
+		MDR_TIMER1->CCR1 =PWM_time;
+		
+		
+		//Недописан АЦП и ДЖОЙСТИК
+	}
+	
+}*/
+
+/*void UART2_IRQHandler (void)
+{
+	
+
+	if ((MDR_UART2->ICR&0x10)==0x10)
+	{
+	MDR_UART2->ICR =(1<<2);
+//	MDR_PORTC->RXTX ^= 0x04;  //светодиод;   //Показываем что прерывание обработано
+	  
+
+		if ((MDR_UART2->DR & 0xFF) == 0xFF) 
+		{
+	
+			          
+		           if(( MDR_UART2->FR & 0xC0) == 0xC0)
+                {
+									
+	              MDR_PORTC->RXTX = (0<<2);
+								MDR_UART2->CR = 0x0000;                             //Регистор управления (Остановка)
+								MDR_UART2->LCR_H = (0x0B11 << 5)| (0<<4);           //Длина слова – количество передаваемых или принимаемых информационных бит в кадре:
+							  MDR_UART2->CR = 0x101;                           //Разрешение работы приемопередатчика:
+								
+									 
+	                    MDR_UART2->DR = 8;
+				              //++;
+				              //if (b > 57)b = 48;		
+								 c++;
+								MDR_UART2->CR = 0x0000;                             //Запрет работы приемопередатчика(Остановка)
+								MDR_UART2->LCR_H = (0x0B11 << 5)| (0<<4);           //Длина слова – количество передаваемых или принимаемых информационных бит в кадре:
+								MDR_UART2->CR = 0x0001;   					                //Разрешение работы приемопередатчика:
+								MDR_UART2->CR = 0x201;
+								}
+							}			
+		else  
+		{
+			MDR_PORTC->RXTX = (1<<2); c=0;
+    }
+  }
+}*/
+
+void TIMER2_IRQHandler (void)
+{
+	
+
+	if ((MDR_TIMER2->STATUS&0x02)==0x02)
+	{
+	MDR_TIMER2->STATUS =(0<<2);
+	MDR_PORTC->RXTX ^= 0x04;  //светодиод;   //Показываем что прерывание обработано
+	  
+	                    MDR_UART2->DR = 8;
+				              //++;
+				              //if (b > 57)b = 48;		
+						
+  }
+}

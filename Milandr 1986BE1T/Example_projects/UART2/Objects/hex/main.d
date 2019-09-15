@@ -1,0 +1,12 @@
+.\objects\hex\main.o: main.c
+.\objects\hex\main.o: Interrapt.h
+.\objects\hex\main.o: ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\objects\hex\main.o: ..\..\Libraries\Config\MDR32F9Qx_config.h
+.\objects\hex\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hex\main.o: ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\inc\MDR1986VE1T.h
+.\objects\hex\main.o: ..\..\Libraries\CMSIS\CM1\CoreSupport\core_cm1.h
+.\objects\hex\main.o: ..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmInstr.h
+.\objects\hex\main.o: ..\..\Libraries\CMSIS\CM1\CoreSupport\core_cmFunc.h
+.\objects\hex\main.o: ..\..\Libraries\CMSIS\CM1\DeviceSupport\MDR1986VE1T\startup\arm\system_MDR1986VE1T.h
+.\objects\hex\main.o: Initmcontroller.h
+.\objects\hex\main.o: adrpr.h
